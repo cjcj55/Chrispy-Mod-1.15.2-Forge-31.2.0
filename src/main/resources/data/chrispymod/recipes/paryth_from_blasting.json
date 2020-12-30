@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:blasting",
+	"ingredient": { "item": "chrispymod:paryth_ore" },	
+	"result": "chrispymod:paryth",
+	"experience": 0.8,
+	"cookingtime": 100,
+	"count": 1
+}

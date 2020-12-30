@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": { "item": "chrispymod:flame_ore_nether" },	
+	"result": "chrispymod:flame",
+	"experience": 1.0,
+	"cookingtime": 200,
+	"count": 1
+}

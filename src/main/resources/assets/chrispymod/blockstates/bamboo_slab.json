@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "chrispymod:block/bamboo_slab" },
+        "type=top": { "model": "chrispymod:block/bamboo_slab_top" },
+        "type=double": { "model": "chrispymod:block/bamboo_block" }
+    }
+}

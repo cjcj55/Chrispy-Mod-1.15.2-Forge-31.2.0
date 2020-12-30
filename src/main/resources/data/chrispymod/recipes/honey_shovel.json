@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I",
+		"S",
+		"S"
+	],
+	
+	"key":
+	{
+		"I": { "item": "minecraft:honey_block" },
+		"S": { "item": "chrispymod:honey_stick"}
+	},
+	
+	"result": { "item": "chrispymod:honey_shovel" },
+	"count": 1
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I I",
+		"III",
+		"III"
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:blue_emerald" }
+	},
+	
+	"result": { "item": "chrispymod:blue_emerald_chestplate" },
+	"count": 1
+}

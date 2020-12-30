@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"II",
+		"IS",
+		" S"
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:ruby" },
+		"S": { "item": "minecraft:stick"}
+	},
+	
+	"result": { "item": "chrispymod:ruby_axe" },
+	"count": 1
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": { "item": "chrispymod:blue_emerald_ore" },	
+	"result": "chrispymod:blue_emerald",
+	"experience": 1.2,
+	"cookingtime": 200,
+	"count": 1
+}

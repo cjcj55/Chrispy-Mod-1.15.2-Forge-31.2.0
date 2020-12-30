@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+           { "item": "minecraft:redstone_lamp" },
+           { "item": "minecraft:green_dye" }
+    ],
+    "result": {
+        "item": "chrispymod:green_redstone_lamp",
+        "count": 1
+    }
+}

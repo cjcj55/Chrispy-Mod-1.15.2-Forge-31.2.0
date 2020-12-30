@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": { "tag": "chrispymod:ruby_ore" },	
+	"result": "chrispymod:ruby",
+	"experience": 1.0,
+	"cookingtime": 200,
+	"count": 1
+}

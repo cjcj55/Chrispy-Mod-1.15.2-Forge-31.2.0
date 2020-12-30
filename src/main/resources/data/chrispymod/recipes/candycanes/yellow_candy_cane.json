@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        { "item": "chrispymod:sugar_block" },
+		{ "item": "minecraft:yellow_dye" }
+    ],
+    "result": {
+        "item": "chrispymod:yellow_candy_cane",
+        "count": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "chrispymod:hardened_redstone_block"
+        }
+    ],
+    "result": {
+        "item": "chrispymod:redstone_ingot",
+        "count": 9
+    }
+}

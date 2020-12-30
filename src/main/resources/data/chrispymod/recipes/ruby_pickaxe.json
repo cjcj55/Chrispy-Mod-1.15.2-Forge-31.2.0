@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		" S ",
+		" S "
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:ruby" },
+		"S": { "item": "minecraft:stick"}
+	},
+	
+	"result": { "item": "chrispymod:ruby_pickaxe" },
+	"count": 1
+}

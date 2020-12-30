@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I",
+		"I",
+		"S"
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:flame" },
+		"S": { "item": "minecraft:obsidian"}
+	},
+	
+	"result": { "item": "chrispymod:flame_sword" },
+	"count": 1
+}

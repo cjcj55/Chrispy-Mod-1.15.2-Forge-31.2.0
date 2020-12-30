@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I",
+		"I",
+		"S"
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:cobalt" },
+		"S": { "item": "minecraft:stick"}
+	},
+	
+	"result": { "item": "chrispymod:cobalt_sword" },
+	"count": 1
+}

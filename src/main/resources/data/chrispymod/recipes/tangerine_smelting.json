@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": { "tag": "chrispymod:tangerine_ore" },	
+	"result": "chrispymod:tangerine",
+	"experience": 2.5,
+	"cookingtime": 200,
+	"count": 1
+}

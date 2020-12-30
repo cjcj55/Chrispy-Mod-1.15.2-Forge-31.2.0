@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": 
+	[
+		{ "item": "chrispymod:cobalt_shard" },
+		{ "item": "chrispymod:cobalt_shard" }
+	],
+		
+	"result": { "item": "chrispymod:cobalt" }
+	
+}

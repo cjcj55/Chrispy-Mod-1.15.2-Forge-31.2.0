@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		" S ",
+		" S "
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:blue_emerald" },
+		"S": { "item": "minecraft:diamond"}
+	},
+	
+	"result": { "item": "chrispymod:blue_emerald_pickaxe" },
+	"count": 1
+}

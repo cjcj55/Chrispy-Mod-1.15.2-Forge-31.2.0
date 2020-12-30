@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "chrispymod:blue_emerald_block"
+        }
+    ],
+    "result": {
+        "item": "chrispymod:blue_emerald",
+        "count": 9
+    }
+}
