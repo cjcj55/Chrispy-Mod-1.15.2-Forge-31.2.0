@@ -1,8 +1,0 @@
-{
-	"type": "minecraft:blasting",
-	"ingredient": { "item": "chrispymod:hellfire_ore_nether" },	
-	"result": "chrispymod:hellfire",
-	"experience": 0.2,
-	"cookingtime": 100,
-	"count": 1
-}

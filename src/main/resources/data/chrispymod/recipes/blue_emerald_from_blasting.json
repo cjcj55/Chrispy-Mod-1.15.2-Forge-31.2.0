@@ -1,8 +1,0 @@
-{
-	"type": "minecraft:blasting",
-	"ingredient": { "item": "chrispymod:blue_emerald_ore" },	
-	"result": "chrispymod:blue_emerald",
-	"experience": 1.2,
-	"cookingtime": 100,
-	"count": 1
-}

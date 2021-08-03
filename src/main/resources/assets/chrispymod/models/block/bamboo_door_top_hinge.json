@@ -1,7 +1,0 @@
-{
-    "parent": "block/door_top_rh",
-    "textures": {
-        "bottom": "chrispymod:block/bamboo_door_bottom",
-        "top": "chrispymod:block/bamboo_door_top"
-    }
-}

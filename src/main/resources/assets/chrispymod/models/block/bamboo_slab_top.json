@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab_top",
-    "textures": {
-        "bottom": "chrispymod:block/bamboo_block_top",
-        "top": "chrispymod:block/bamboo_block_top",
-        "side": "chrispymod:block/bamboo_block"
-    }
-}

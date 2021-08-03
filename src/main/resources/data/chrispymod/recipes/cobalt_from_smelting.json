@@ -1,8 +1,0 @@
-{
-	"type": "minecraft:smelting",
-	"ingredient": { "item": "chrispymod:cobalt_ore" },	
-	"result": "chrispymod:cobalt",
-	"experience": 1.0,
-	"cookingtime": 200,
-	"count": 1
-}

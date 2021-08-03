@@ -1,8 +1,0 @@
-{
-	"type": "minecraft:blasting",
-	"ingredient": { "item": "chrispymod:cobalt_ore" },	
-	"result": "chrispymod:cobalt",
-	"experience": 1.0,
-	"cookingtime": 100,
-	"count": 1
-}

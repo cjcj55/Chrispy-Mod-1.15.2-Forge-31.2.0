@@ -1,8 +1,0 @@
-{
-	"type": "minecraft:smelting",
-	"ingredient": { "tag": "chrispymod:paryth_ore" },	
-	"result": "chrispymod:paryth",
-	"experience": 2.2,
-	"cookingtime": 200,
-	"count": 1
-}

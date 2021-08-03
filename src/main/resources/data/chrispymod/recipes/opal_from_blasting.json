@@ -1,8 +1,0 @@
-{
-	"type": "minecraft:blasting",
-	"ingredient": { "item": "chrispymod:opal_ore" },	
-	"result": "chrispymod:opal",
-	"experience": 0.8,
-	"cookingtime": 100,
-	"count": 1
-}

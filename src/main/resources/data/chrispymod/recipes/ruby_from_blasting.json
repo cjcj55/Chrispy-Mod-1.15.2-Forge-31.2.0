@@ -1,8 +1,0 @@
-{
-	"type": "minecraft:blasting",
-	"ingredient": { "tag": "chrispymod:ruby_ore" },	
-	"result": "chrispymod:ruby",
-	"experience": 1.0,
-	"cookingtime": 100,
-	"count": 1
-}
