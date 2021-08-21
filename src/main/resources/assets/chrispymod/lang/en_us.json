@@ -1,6 +1,0 @@
-{
-	"item.chrispymod.distancepick": "Test Item",
-	
-	"message.distancepick.tooltip": "Mine with extra distance %s",
-	"message.distancepick.change": "Change extra distance to %s"
-}
