@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"IOI",
+		"I I",
+		"I I"
+	],
+	
+	"key":
+	{
+		"I": { "item": "minecraft:honey_block" },
+		"O": { "item": "minecraft:honeycomb"}
+	},
+	
+	"result": { "item": "chrispymod:honey_leggings" },
+	"count": 1
+}

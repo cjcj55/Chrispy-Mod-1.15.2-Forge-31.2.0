@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I I",
+		"I I"
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:ruby" }
+	},
+	
+	"result": { "item": "chrispymod:ruby_boots" },
+	"count": 1
+}

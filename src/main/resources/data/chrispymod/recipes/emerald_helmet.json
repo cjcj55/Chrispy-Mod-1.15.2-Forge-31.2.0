@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"I I"
+	],
+	
+	"key":
+	{
+		"I": { "item": "minecraft:emerald" }
+	},
+	
+	"result": { "item": "chrispymod:emerald_helmet" },
+	"count": 1
+}

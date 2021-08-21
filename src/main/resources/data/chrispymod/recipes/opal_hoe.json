@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"II",
+		"S ",
+		"S "
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:opal" },
+		"S": { "item": "minecraft:stick"}
+	},
+	
+	"result": { "item": "chrispymod:opal_hoe" },
+	"count": 1
+}

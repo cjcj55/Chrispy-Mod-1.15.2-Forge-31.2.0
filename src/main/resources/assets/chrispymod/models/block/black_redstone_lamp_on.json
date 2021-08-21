@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures":
+    {
+        "all": "chrispymod:block/black_redstone_lamp_on"
+    }
+}

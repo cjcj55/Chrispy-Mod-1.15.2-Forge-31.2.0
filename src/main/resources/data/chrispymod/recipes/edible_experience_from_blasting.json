@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:blasting",
+	"ingredient": { "item": "chrispymod:experience_ore" },	
+	"result": "chrispymod:edible_experience",
+	"experience": 1.0,
+	"cookingtime": 100,
+	"count": 1
+}

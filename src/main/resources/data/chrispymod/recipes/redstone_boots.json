@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I I",
+		"I I"
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:redstone_ingot" }
+	},
+	
+	"result": { "item": "chrispymod:redstone_boots" },
+	"count": 1
+}

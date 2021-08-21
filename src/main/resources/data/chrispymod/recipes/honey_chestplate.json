@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I I",
+		"IOI",
+		"III"
+	],
+	
+	"key":
+	{
+		"I": { "item": "minecraft:honey_block" },
+		"O": { "item": "minecraft:honeycomb"}
+	},
+	
+	"result": { "item": "chrispymod:honey_chestplate" },
+	"count": 1
+}

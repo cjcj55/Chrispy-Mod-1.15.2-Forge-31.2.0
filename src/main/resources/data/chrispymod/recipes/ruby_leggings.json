@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"I I",
+		"I I"
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:ruby" }
+	},
+	
+	"result": { "item": "chrispymod:ruby_leggings" },
+	"count": 1
+}

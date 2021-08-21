@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "chrispymod:opal_block"
+        }
+    ],
+    "result": {
+        "item": "chrispymod:opal",
+        "count": 9
+    }
+}

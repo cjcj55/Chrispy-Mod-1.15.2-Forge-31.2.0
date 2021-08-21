@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I I",
+		"I I"
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:cobalt" }
+	},
+	
+	"result": { "item": "chrispymod:cobalt_boots" },
+	"count": 1
+}

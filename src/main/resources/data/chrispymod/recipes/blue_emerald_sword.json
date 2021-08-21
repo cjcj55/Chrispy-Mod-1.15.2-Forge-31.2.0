@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I",
+		"I",
+		"S"
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:blue_emerald" },
+		"S": { "item": "minecraft:diamond"}
+	},
+	
+	"result": { "item": "chrispymod:blue_emerald_sword" },
+	"count": 1
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I",
+		"S",
+		"S"
+	],
+	
+	"key":
+	{
+		"I": { "item": "chrispymod:lightning" },
+		"S": { "item": "minecraft:stick"}
+	},
+	
+	"result": { "item": "chrispymod:lightning_shovel" },
+	"count": 1
+}

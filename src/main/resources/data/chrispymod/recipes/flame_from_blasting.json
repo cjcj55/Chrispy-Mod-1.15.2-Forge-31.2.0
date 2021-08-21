@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:blasting",
+	"ingredient": { "item": "chrispymod:flame_ore_nether" },	
+	"result": "chrispymod:flame",
+	"experience": 1.0,
+	"cookingtime": 100,
+	"count": 1
+}
