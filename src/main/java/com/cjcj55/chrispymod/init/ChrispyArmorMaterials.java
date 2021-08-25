@@ -13,18 +13,18 @@ public enum ChrispyArmorMaterials implements IArmorMaterial
 {
 	// Durability; Boots, Leggings, Chestplate, Helmet; Enchantability
 	// FIRST NUMBER: Leather = 5, Gold = 7, Iron = 15, Diamond = 33
-	ruby("ruby", 17, new int[] {2, 5, 7, 3}, 15, ItemInit.RUBY.get(), "item.armor.equip_diamond", 0.0f),
-	opal("opal", 15, new int[] {2, 4, 6, 3}, 14, ItemInit.OPAL.get(), "item.armor.equip_diamond", 0.0f),
-	tangerine("tangerine", 18, new int[] {2, 5, 7, 3}, 3, ItemInit.TANGERINE.get(), "item.armor.equip_diamond", 0.0f),
-	cobalt("cobalt", 25, new int[] {3, 6, 8, 3}, 8, ItemInit.COBALT.get(), "item.armor.equip_diamond", 1.0f),
-	blue_emerald("blue_emerald", 40, new int[] {3, 6, 8, 4}, 13, ItemInit.BLUE_EMERALD.get(), "item.armor.equip_diamond", 2.2f),
-	paryth("paryth", 16, new int[] {2, 5, 8, 3}, 18, ItemInit.PARYTH.get(), "item.armor.equip_diamond", 0.0f),
-	lightning("lightning", 36, new int[] {2, 6, 8, 3}, 10, ItemInit.LIGHTNING.get(), "item.armor.equip_diamond", 1.0f),
-	flame("flame", 25, new int[] {3, 6, 8, 3}, 12, ItemInit.FLAME.get(), "item.armor.equip_diamond", 0.0f),
-	redstone("redstone", 17, new int[] {4, 5, 7, 2}, 12, ItemInit.REDSTONE_INGOT.get(), "item.armor.equip_diamond", 0.0f),
-	emerald("emerald", 30, new int[] {3, 6, 8, 3}, 10, Items.EMERALD, "item.armor.equip_diamond", 1.2f),
-	white_dwarf_star("white_dwarf_star", 16, new int[] {2, 5, 6, 2}, 10, ItemInit.WHITE_DWARF_STAR.get(), "item.armor.equip_leather", 0.0f),
-	honey("honey", 15, new int[] {2, 4, 6, 3}, 14, Items.HONEY_BLOCK, "block.honey_block.break", 0.0f);
+	ruby("ruby", 							17, new int[] {2, 5, 7, 3}, 15, ItemRegistry.RUBY.get(), "item.armor.equip_diamond", 0.0f),
+	opal("opal", 							15, new int[] {2, 4, 6, 3}, 14, ItemRegistry.OPAL.get(), "item.armor.equip_diamond", 0.0f),
+	tangerine("tangerine", 					18, new int[] {2, 5, 7, 3}, 3, ItemRegistry.TANGERINE.get(), "item.armor.equip_diamond", 0.0f),
+	cobalt("cobalt", 						25, new int[] {3, 6, 8, 3}, 8, ItemRegistry.COBALT.get(), "item.armor.equip_diamond", 1.0f),
+	blue_emerald("blue_emerald", 			40, new int[] {3, 6, 8, 4}, 13, ItemRegistry.BLUE_EMERALD.get(), "item.armor.equip_diamond", 2.2f),
+	paryth("paryth", 						16, new int[] {2, 5, 8, 3}, 18, ItemRegistry.PARYTH.get(), "item.armor.equip_diamond", 0.0f),
+	lightning("lightning", 					36, new int[] {2, 6, 8, 3}, 10, ItemRegistry.LIGHTNING.get(), "item.armor.equip_diamond", 1.0f),
+	flame("flame", 							25, new int[] {3, 6, 8, 3}, 12, ItemRegistry.FLAME.get(), "item.armor.equip_diamond", 0.0f),
+	redstone("redstone", 					17, new int[] {4, 5, 7, 2}, 12, ItemRegistry.REDSTONE_INGOT.get(), "item.armor.equip_diamond", 0.0f),
+	emerald("emerald", 						30, new int[] {3, 6, 8, 3}, 10, Items.EMERALD, "item.armor.equip_diamond", 1.2f),
+	white_dwarf_star("white_dwarf_star", 	16, new int[] {2, 5, 6, 2}, 10, ItemRegistry.WHITE_DWARF_STAR.get(), "item.armor.equip_leather", 0.0f),
+	honey("honey", 							15, new int[] {2, 4, 6, 3}, 14, Items.HONEY_BLOCK, "block.honey_block.break", 0.0f);
 	
 	private static final int[] max_damage_array = new int[]{13, 15, 16, 11};
 	private String name, equipSound;

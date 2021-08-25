@@ -26,7 +26,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public class ItemInit 
+public class ItemRegistry 
 {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ChrispyMod.MOD_ID);
 
@@ -43,7 +43,7 @@ public class ItemInit
 	public static final RegistryObject<Item> HELLFIRE = ITEMS.register("hellfire", () -> new HellfireBurnableItem(new Item.Properties()));	
 	public static final RegistryObject<Item> WHITE_DWARF_STAR = ITEMS.register("white_dwarf_star", () -> new WhiteDwarfStarItem(new Item.Properties()));
 	public static final RegistryObject<Item> NATURAL_ESSENCE = ITEMS.register("natural_essence", () -> new ChrispyItem(new Item.Properties()));
-	public static final RegistryObject<Item> HONEY_STICK = ITEMS.register("honey_stick", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.HONEY_STICK)));
+	public static final RegistryObject<Item> HONEY_STICK = ITEMS.register("honey_stick", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.HONEY_STICK)));
 	public static final RegistryObject<Item> EDIBLE_EXPERIENCE = ITEMS.register("edible_experience", () -> new EdibleExperienceItem(new Item.Properties()));
 	
 	// First # is how much +/- damage each specific tool does. Second # is attack speed.
@@ -184,24 +184,24 @@ public class ItemInit
 	public static final RegistryObject<Item> LIGHTNING_WAND = ITEMS.register("lightning_wand", () -> new LightningWandItem(new Item.Properties().durability(64).tab(ChrispyModItemGroup.instance)));
 	
 // FOOD	
-	public static final RegistryObject<Item> BLACK_CANDY_CANE = ITEMS.register("black_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.BLACK_CANDY_CANE)));
-	public static final RegistryObject<Item> BLUE_CANDY_CANE = ITEMS.register("blue_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.BLUE_CANDY_CANE)));
-	public static final RegistryObject<Item> BROWN_CANDY_CANE = ITEMS.register("brown_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.BROWN_CANDY_CANE)));
-	public static final RegistryObject<Item> CYAN_CANDY_CANE = ITEMS.register("cyan_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.CYAN_CANDY_CANE)));
-	public static final RegistryObject<Item> GRAY_CANDY_CANE = ITEMS.register("gray_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.GRAY_CANDY_CANE)));
-	public static final RegistryObject<Item> GREEN_CANDY_CANE = ITEMS.register("green_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.GREEN_CANDY_CANE)));
-	public static final RegistryObject<Item> LIGHT_BLUE_CANDY_CANE = ITEMS.register("light_blue_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.LIGHT_BLUE_CANDY_CANE)));
-	public static final RegistryObject<Item> LIGHT_GRAY_CANDY_CANE = ITEMS.register("light_gray_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.LIGHT_GRAY_CANDY_CANE)));
-	public static final RegistryObject<Item> LIME_CANDY_CANE = ITEMS.register("lime_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.LIME_CANDY_CANE)));
-	public static final RegistryObject<Item> MAGENTA_CANDY_CANE = ITEMS.register("magenta_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.MAGENTA_CANDY_CANE)));
-	public static final RegistryObject<Item> ORANGE_CANDY_CANE = ITEMS.register("orange_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.ORANGE_CANDY_CANE)));
-	public static final RegistryObject<Item> PINK_CANDY_CANE = ITEMS.register("pink_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.PINK_CANDY_CANE)));
-	public static final RegistryObject<Item> PURPLE_CANDY_CANE = ITEMS.register("purple_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.PURPLE_CANDY_CANE)));
-	public static final RegistryObject<Item> RED_CANDY_CANE = ITEMS.register("red_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.RED_CANDY_CANE)));
-	public static final RegistryObject<Item> WHITE_CANDY_CANE = ITEMS.register("white_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.WHITE_CANDY_CANE)));
-	public static final RegistryObject<Item> YELLOW_CANDY_CANE = ITEMS.register("yellow_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.YELLOW_CANDY_CANE)));
+	public static final RegistryObject<Item> BLACK_CANDY_CANE = ITEMS.register("black_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.BLACK_CANDY_CANE)));
+	public static final RegistryObject<Item> BLUE_CANDY_CANE = ITEMS.register("blue_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.BLUE_CANDY_CANE)));
+	public static final RegistryObject<Item> BROWN_CANDY_CANE = ITEMS.register("brown_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.BROWN_CANDY_CANE)));
+	public static final RegistryObject<Item> CYAN_CANDY_CANE = ITEMS.register("cyan_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.CYAN_CANDY_CANE)));
+	public static final RegistryObject<Item> GRAY_CANDY_CANE = ITEMS.register("gray_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.GRAY_CANDY_CANE)));
+	public static final RegistryObject<Item> GREEN_CANDY_CANE = ITEMS.register("green_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.GREEN_CANDY_CANE)));
+	public static final RegistryObject<Item> LIGHT_BLUE_CANDY_CANE = ITEMS.register("light_blue_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.LIGHT_BLUE_CANDY_CANE)));
+	public static final RegistryObject<Item> LIGHT_GRAY_CANDY_CANE = ITEMS.register("light_gray_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.LIGHT_GRAY_CANDY_CANE)));
+	public static final RegistryObject<Item> LIME_CANDY_CANE = ITEMS.register("lime_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.LIME_CANDY_CANE)));
+	public static final RegistryObject<Item> MAGENTA_CANDY_CANE = ITEMS.register("magenta_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.MAGENTA_CANDY_CANE)));
+	public static final RegistryObject<Item> ORANGE_CANDY_CANE = ITEMS.register("orange_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.ORANGE_CANDY_CANE)));
+	public static final RegistryObject<Item> PINK_CANDY_CANE = ITEMS.register("pink_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.PINK_CANDY_CANE)));
+	public static final RegistryObject<Item> PURPLE_CANDY_CANE = ITEMS.register("purple_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.PURPLE_CANDY_CANE)));
+	public static final RegistryObject<Item> RED_CANDY_CANE = ITEMS.register("red_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.RED_CANDY_CANE)));
+	public static final RegistryObject<Item> WHITE_CANDY_CANE = ITEMS.register("white_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.WHITE_CANDY_CANE)));
+	public static final RegistryObject<Item> YELLOW_CANDY_CANE = ITEMS.register("yellow_candy_cane", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.YELLOW_CANDY_CANE)));
 	
-	public static final RegistryObject<Item> COOKED_CARROT = ITEMS.register("cooked_carrot", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodList.COOKED_CARROT)));
+	public static final RegistryObject<Item> COOKED_CARROT = ITEMS.register("cooked_carrot", () -> new Item(new Item.Properties().tab(ChrispyModItemGroup.instance).food(FoodBuilderRegistry.COOKED_CARROT)));
 	
 	
 	

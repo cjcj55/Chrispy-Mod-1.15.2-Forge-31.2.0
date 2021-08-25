@@ -5,6 +5,7 @@ import net.minecraft.block.StairsBlock;
 
 public class ModStairsBlock extends StairsBlock {
 
+	@SuppressWarnings("deprecation")
 	public ModStairsBlock(BlockState state, Properties properties) {
 		super(state, properties);
 	}

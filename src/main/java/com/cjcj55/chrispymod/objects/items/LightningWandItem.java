@@ -60,17 +60,17 @@ public class LightningWandItem extends Item
 				Block block = worldIn.getBlockState(pos).getBlock();
 				if(block != Blocks.AIR)
 				{
-				if(worldIn instanceof ServerWorld)
-				{
-					//((ServerWorld) worldIn)block.(new LightningBoltEntity(worldIn, pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, false));
+					if(worldIn instanceof ServerWorld)
+					{
+						//((ServerWorld) worldIn)block.(new LightningBoltEntity(worldIn, pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, false));
 					
-					playerIn.awardStat(Stats.ITEM_USED.get(this));
-					if (!playerIn.abilities.mayfly) {
-						stack.hurtAndBreak(1, playerIn, (p_219998_1_) -> {
-							p_219998_1_.broadcastBreakEvent(handIn);
-						});
-					}	
-				}
+						playerIn.awardStat(Stats.ITEM_USED.get(this));
+						if (!playerIn.abilities.mayfly) {
+							stack.hurtAndBreak(1, playerIn, (p_219998_1_) -> {
+								p_219998_1_.broadcastBreakEvent(handIn);
+							});
+						}	
+					}
 				}
 				return new ActionResult<ItemStack>(ActionResultType.SUCCESS, stack);
 				

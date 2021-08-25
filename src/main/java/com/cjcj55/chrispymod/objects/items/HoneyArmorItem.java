@@ -1,6 +1,6 @@
 package com.cjcj55.chrispymod.objects.items;
 
-import com.cjcj55.chrispymod.init.ItemInit;
+import com.cjcj55.chrispymod.init.ItemRegistry;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -21,10 +21,10 @@ public class HoneyArmorItem extends ArmorItem
 	@Override
 	public void onArmorTick(ItemStack stack, World world, PlayerEntity player)
 	{
-		if(player.inventory.getArmor(0).getItem() == ItemInit.HONEY_BOOTS.get() &&
-				player.inventory.getArmor(1).getItem() == ItemInit.HONEY_LEGGINGS.get() && 
-				player.inventory.getArmor(2).getItem() == ItemInit.HONEY_CHESTPLATE.get() &&
-				player.inventory.getArmor(3).getItem() == ItemInit.HONEY_HELMET.get())
+		if(player.inventory.getArmor(0).getItem() == ItemRegistry.HONEY_BOOTS.get() &&
+				player.inventory.getArmor(1).getItem() == ItemRegistry.HONEY_LEGGINGS.get() && 
+				player.inventory.getArmor(2).getItem() == ItemRegistry.HONEY_CHESTPLATE.get() &&
+				player.inventory.getArmor(3).getItem() == ItemRegistry.HONEY_HELMET.get())
 		{
 			player.addEffect(new EffectInstance(Effects.ABSORPTION, 20, 3));
 		}

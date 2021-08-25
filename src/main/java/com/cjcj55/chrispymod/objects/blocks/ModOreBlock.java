@@ -2,7 +2,7 @@ package com.cjcj55.chrispymod.objects.blocks;
 
 import java.util.Random;
 
-import com.cjcj55.chrispymod.init.BlockInit;
+import com.cjcj55.chrispymod.init.BlockRegistry;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -17,59 +17,59 @@ public class ModOreBlock extends Block
 	}
 	
 	protected int getExperience(Random p_220281_1_) {
-      if (this == BlockInit.COBALT_ORE.get()) 
+      if (this == BlockRegistry.COBALT_ORE.get()) 
       {
          return MathHelper.nextInt(p_220281_1_, 3, 7);
       } 
       
-      else if (this == BlockInit.FLAME_ORE_NETHER.get()) 
+      else if (this == BlockRegistry.FLAME_ORE_NETHER.get()) 
       {
          return MathHelper.nextInt(p_220281_1_, 2, 5);
       } 
       
-      else if (this == BlockInit.OPAL_ORE.get()) 
+      else if (this == BlockRegistry.OPAL_ORE.get()) 
       {
          return MathHelper.nextInt(p_220281_1_, 1, 3);
       } 
       
-      else if (this == BlockInit.PARYTH_ORE.get()) 
+      else if (this == BlockRegistry.PARYTH_ORE.get()) 
       {
          return MathHelper.nextInt(p_220281_1_, 2, 5);
       } 
       
-      else if (this == BlockInit.RUBY_ORE.get()) 
+      else if (this == BlockRegistry.RUBY_ORE.get()) 
       {
          return MathHelper.nextInt(p_220281_1_, 3, 6);
       } 
       
-      else if (this == BlockInit.RUBY_ORE_NETHER.get()) 
+      else if (this == BlockRegistry.RUBY_ORE_NETHER.get()) 
       {
          return MathHelper.nextInt(p_220281_1_, 3, 6);
       }  
       
-      else if (this == BlockInit.HELLFIRE_ORE_NETHER.get()) 
+      else if (this == BlockRegistry.HELLFIRE_ORE_NETHER.get()) 
       {
          return MathHelper.nextInt(p_220281_1_, 1, 2);
       } 
       
-      else if (this == BlockInit.WHITE_DWARF_STAR_ORE.get()) 
+      else if (this == BlockRegistry.WHITE_DWARF_STAR_ORE.get()) 
       {
          return MathHelper.nextInt(p_220281_1_, 5, 8);
       }
       
-      else if (this == BlockInit.NATURAL_ESSENCE_ORE.get()) 
+      else if (this == BlockRegistry.NATURAL_ESSENCE_ORE.get()) 
       {
          return MathHelper.nextInt(p_220281_1_, 4, 7);
       }
       
-      else if (this == BlockInit.EXPERIENCE_ORE.get()) 
+      else if (this == BlockRegistry.EXPERIENCE_ORE.get()) 
       {
          return MathHelper.nextInt(p_220281_1_, 1, 3);
       }
       
       else 
       {
-         return this == BlockInit.TANGERINE_ORE.get() ? MathHelper.nextInt(p_220281_1_, 2, 4) : 0;
+         return this == BlockRegistry.TANGERINE_ORE.get() ? MathHelper.nextInt(p_220281_1_, 2, 4) : 0;
       }
    }
 	

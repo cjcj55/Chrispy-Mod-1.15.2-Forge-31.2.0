@@ -3,9 +3,9 @@ package com.cjcj55.chrispymod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.cjcj55.chrispymod.init.BlockInit;
-import com.cjcj55.chrispymod.init.ItemInit;
-import com.cjcj55.chrispymod.init.PaintingInit;
+import com.cjcj55.chrispymod.init.BlockRegistry;
+import com.cjcj55.chrispymod.init.ItemRegistry;
+import com.cjcj55.chrispymod.init.PaintingRegistry;
 import com.cjcj55.chrispymod.itemgroups.ChrispyModItemGroup;
 import com.cjcj55.chrispymod.util.OreGeneration;
 
@@ -28,7 +28,6 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.IForgeRegistry;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod("chrispymod")
 @EventBusSubscriber(modid = ChrispyMod.MOD_ID, bus = Bus.MOD)
 public class ChrispyMod
@@ -44,9 +43,9 @@ public class ChrispyMod
     	chrispyModEventBus.addListener(this::setup);
     	chrispyModEventBus.addListener(this::doClientStuff);
     	
-    	ItemInit.ITEMS.register(chrispyModEventBus);   	
-    	BlockInit.BLOCKS.register(chrispyModEventBus);   
-    	PaintingInit.PAINTING_TYPES.register(chrispyModEventBus);
+    	ItemRegistry.ITEMS.register(chrispyModEventBus);   	
+    	BlockRegistry.BLOCKS.register(chrispyModEventBus);   
+    	PaintingRegistry.PAINTING_TYPES.register(chrispyModEventBus);
         
     	instance = this;
     	
@@ -60,7 +59,7 @@ public class ChrispyMod
 	public static void createBlockItems(final RegistryEvent.Register<Item> event) {
 		final IForgeRegistry<Item> registry = event.getRegistry();
 
-		BlockInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
+		BlockRegistry.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
 					final Item.Properties properties = new Item.Properties().tab(ChrispyModItemGroup.instance);
 					final BlockItem blockItem = new BlockItem(block, properties);
 					blockItem.setRegistryName(block.getRegistryName());
@@ -77,7 +76,7 @@ public class ChrispyMod
 
     private void doClientStuff(final FMLClientSetupEvent event) 
     {
-        RenderTypeLookup.setRenderLayer(BlockInit.BAMBOO_DOOR.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(BlockRegistry.BAMBOO_DOOR.get(), RenderType.cutout());
     }
     
     @SubscribeEvent
